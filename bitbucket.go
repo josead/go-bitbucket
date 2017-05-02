@@ -134,6 +134,7 @@ type CommitsOptions struct {
 	Include     string `json:"include"`
 	Exclude     string `json:"exclude"`
 	Comment_id  string `json:"comment_id"`
+	Key         string `json:"key"`
 }
 
 type BranchRestrictionsOptions struct {
